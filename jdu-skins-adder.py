@@ -7,7 +7,7 @@ unlock = str(input("unlockType: "))
 url = str(input("url: "))
 num = str(input("skin number: "))
 
-# Skins Adder (WORKS ONLY WITH EXISTING JSON)
+# Skins Adder 
 skin = open("skins.json", "w", encoding="utf-8")
 skin.write('''{
     "''' + num + '''": {
